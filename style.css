@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav ul,
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header__reg ul,
+ul li {
+    display: inline-block;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__slider img {
+    height: 20%;
+    width: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
