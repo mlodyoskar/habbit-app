@@ -1,6 +1,30 @@
 .header {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logo h1 {
+    font-size: 40px;
+
+}
+
+.header__nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.header__logo img {
+    width: 20%;
+    height: auto;
+    margin-left: -30%;
 }
 
 .header__nav ul,
@@ -14,18 +38,37 @@ ul li {
     display: inline-block;
 }
 
+.header__reg a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 70%;
 }
 
-.section__slider img {
-    height: 20%;
-    width: 20%;
+.section p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
+
+
+
 
 .footer {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.footer__social i {
+    font-size: 30px;
 }
